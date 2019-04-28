@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		494E618FABC8FB3E84219CAD /* Pods_Piggipo2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7FFAE967A09F5F7AF09CDD /* Pods_Piggipo2.framework */; };
+		542082BD2274B65F00EE0E39 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542082BC2274B65F00EE0E39 /* SettingsTableViewController.swift */; };
+		548478B92274370600D5EC49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548478B82274370600D5EC49 /* AppDelegate.swift */; };
+		548478BB2274370600D5EC49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548478BA2274370600D5EC49 /* ViewController.swift */; };
+		548478BE2274370600D5EC49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 548478BC2274370600D5EC49 /* Main.storyboard */; };
+		548478C02274370700D5EC49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 548478BF2274370700D5EC49 /* Assets.xcassets */; };
+		548478C32274370700D5EC49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 548478C12274370700D5EC49 /* LaunchScreen.storyboard */; };
+		548478CD2274506200D5EC49 /* MoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548478CC2274506200D5EC49 /* MoreTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		542082BC2274B65F00EE0E39 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		548478B52274370600D5EC49 /* Piggipo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Piggipo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		548478B82274370600D5EC49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		548478BA2274370600D5EC49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		548478BD2274370600D5EC49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		548478BF2274370700D5EC49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		548478C22274370700D5EC49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		548478C42274370700D5EC49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		548478CC2274506200D5EC49 /* MoreTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreTableViewController.swift; sourceTree = "<group>"; };
+		76761716249C870ECC657417 /* Pods-Piggipo2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Piggipo2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Piggipo2/Pods-Piggipo2.debug.xcconfig"; sourceTree = "<group>"; };
+		DC8ED10D5772B2D632D8DB5A /* Pods-Piggipo2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Piggipo2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Piggipo2/Pods-Piggipo2.release.xcconfig"; sourceTree = "<group>"; };
+		EF7FFAE967A09F5F7AF09CDD /* Pods_Piggipo2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Piggipo2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		548478B22274370600D5EC49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494E618FABC8FB3E84219CAD /* Pods_Piggipo2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		548478AC2274370600D5EC49 = {
+			isa = PBXGroup;
+			children = (
+				548478B72274370600D5EC49 /* Piggipo2 */,
+				548478B62274370600D5EC49 /* Products */,
+				EC4C3D0904A6459E403770D3 /* Pods */,
+				AA11E485F4981B6B1184AD56 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		548478B62274370600D5EC49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				548478B52274370600D5EC49 /* Piggipo2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		548478B72274370600D5EC49 /* Piggipo2 */ = {
+			isa = PBXGroup;
+			children = (
+				548478B82274370600D5EC49 /* AppDelegate.swift */,
+				548478BA2274370600D5EC49 /* ViewController.swift */,
+				548478BC2274370600D5EC49 /* Main.storyboard */,
+				548478BF2274370700D5EC49 /* Assets.xcassets */,
+				548478C12274370700D5EC49 /* LaunchScreen.storyboard */,
+				548478C42274370700D5EC49 /* Info.plist */,
+				548478CC2274506200D5EC49 /* MoreTableViewController.swift */,
+				542082BC2274B65F00EE0E39 /* SettingsTableViewController.swift */,
+			);
+			path = Piggipo2;
+			sourceTree = "<group>";
+		};
+		AA11E485F4981B6B1184AD56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF7FFAE967A09F5F7AF09CDD /* Pods_Piggipo2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC4C3D0904A6459E403770D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76761716249C870ECC657417 /* Pods-Piggipo2.debug.xcconfig */,
+				DC8ED10D5772B2D632D8DB5A /* Pods-Piggipo2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		548478B42274370600D5EC49 /* Piggipo2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 548478C72274370700D5EC49 /* Build configuration list for PBXNativeTarget "Piggipo2" */;
+			buildPhases = (
+				D11FC71D26EA7A83C33115F4 /* [CP] Check Pods Manifest.lock */,
+				548478B12274370600D5EC49 /* Sources */,
+				548478B22274370600D5EC49 /* Frameworks */,
+				548478B32274370600D5EC49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Piggipo2;
+			productName = Piggipo2;
+			productReference = 548478B52274370600D5EC49 /* Piggipo2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		548478AD2274370600D5EC49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Muhammat Fandi Mayuso";
+				TargetAttributes = {
+					548478B42274370600D5EC49 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 548478B02274370600D5EC49 /* Build configuration list for PBXProject "Piggipo2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 548478AC2274370600D5EC49;
+			productRefGroup = 548478B62274370600D5EC49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				548478B42274370600D5EC49 /* Piggipo2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		548478B32274370600D5EC49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				548478C32274370700D5EC49 /* LaunchScreen.storyboard in Resources */,
+				548478C02274370700D5EC49 /* Assets.xcassets in Resources */,
+				548478BE2274370600D5EC49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D11FC71D26EA7A83C33115F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Piggipo2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		548478B12274370600D5EC49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				542082BD2274B65F00EE0E39 /* SettingsTableViewController.swift in Sources */,
+				548478BB2274370600D5EC49 /* ViewController.swift in Sources */,
+				548478CD2274506200D5EC49 /* MoreTableViewController.swift in Sources */,
+				548478B92274370600D5EC49 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		548478BC2274370600D5EC49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				548478BD2274370600D5EC49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		548478C12274370700D5EC49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				548478C22274370700D5EC49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		548478C52274370700D5EC49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		548478C62274370700D5EC49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		548478C82274370700D5EC49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76761716249C870ECC657417 /* Pods-Piggipo2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5GCW6WMYA4;
+				INFOPLIST_FILE = Piggipo2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fandi.Piggipo2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		548478C92274370700D5EC49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC8ED10D5772B2D632D8DB5A /* Pods-Piggipo2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5GCW6WMYA4;
+				INFOPLIST_FILE = Piggipo2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fandi.Piggipo2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		548478B02274370600D5EC49 /* Build configuration list for PBXProject "Piggipo2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				548478C52274370700D5EC49 /* Debug */,
+				548478C62274370700D5EC49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		548478C72274370700D5EC49 /* Build configuration list for PBXNativeTarget "Piggipo2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				548478C82274370700D5EC49 /* Debug */,
+				548478C92274370700D5EC49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 548478AD2274370600D5EC49 /* Project object */;
+}
